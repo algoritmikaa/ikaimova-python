@@ -90,8 +90,8 @@ def click_ok():
 
 app = QApplication([])
 window = QWidget()
-window.setWindowTitle('Memory card')
-window.resize(500, 400)
+window.setWindowTitle('Картачки для запиминания')
+window.resize(600, 500)
 
 question = QLabel('Вопрос')
 button = QPushButton('Ответить')
@@ -173,6 +173,6 @@ window.setStyleSheet("""background: qlineargradient(
 window.score = 0
 window.total = 0
 next_question()
-window.resize(400, 300)
+window.resize(600, 400)
 window.show()
 app.exec()
